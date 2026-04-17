@@ -1,0 +1,58 @@
+body{
+    /* corde fundo*/
+    background-color:grey;
+    /*foto de fundo*/
+    background-image: url(https://img.freepik.com/vetores-gratis/fundo-preto-de-estilo-3d-com-camada-de-papel_206725-669.jpg?semt=ais_hybrid&w=740&q=80);
+    background-size: cover;
+    /*alinhamento por flexbox*/
+    display: flex;
+    /*alinha sentodo acima, abaixo*/
+    align-items:center;
+    /*alinha sentido esquer e direita*/
+    justify-content: center;
+
+
+}
+.painel{
+    background-color:rgba(22, 23, 24, 0.466);
+    /*espaçamento interno*/
+    padding:30px;
+    /*arredondar cantos*/
+    border-radius: 12px;
+    /* largura*/
+    width: 340px;
+    /*sombra*/
+    box-shadow: 10px 10px 10px;
+}
+input, textarea{
+    /*largura dos campos*/
+    width: 100%;
+    /*espaçamento interno*/
+    padding: 10px;
+    /*margem*/
+    margin:7px;
+    /*arrendondar*/
+    border-radius: 8px;
+    border: 1px solid #010518;
+
+}
+button{
+    width: 100%;
+    padding: 12px;
+    border: none;
+    background-color: dodgerblue;
+    border-radius: 8px;
+    cursor: pointer;
+    color:aliceblue;
+    margin: 7px;
+    transition:0.5s;
+}
+button:hover{
+    background-color:darkblue;
+    scale:1.1;
+
+}
+h2{
+    text-aling:center;
+    color:blue
+}

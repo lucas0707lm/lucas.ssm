@@ -1,0 +1,149 @@
+ 
+ @import url('https://fonts.googleapis.com/css2?family=Aldrich&display=swap');
+
+ section{
+    font-family: "Aldrich", sans-serif;
+    max-width: 500px;
+    box-shadow: 2px 2px 7px rgb(8, 8, 8);
+    border-radius: 15px;
+    margin: auto;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(170, 170, 170);
+    margin-bottom:15px;
+    animation: animar alternate infinite 3s;
+}
+@keyframes animar{
+    0%{box-shadow: 3px 3px 7px rgb(241, 239, 239)}
+    25%{box-shadow:3px 3px 7px rgb(167, 167, 165)}
+    50%{box-shadow:3px 3px 7px rgb(129, 129, 129)}
+    75%{box-shadow:3px 3px 7px rgb(68, 68, 68)}
+    100%{box-shadow: 3px 3px 7px rgb(5, 5, 5)}    
+}
+body{
+    background-color: rgb(71, 70, 70);
+    background-image: url(https://wallpapers.com/images/hd/grey-desktop-r4885wdv0sobysr9.jpg);
+    background-size: cover;
+    font-family: 'segoe ui'
+}
+table{
+    border-spacing:0;
+    font-size: 12px;
+    background-color: rgb(244, 246, 247);
+    border-color: rgb(143, 145, 145);
+    width:100%;
+    text-align:center;
+}
+ul{
+    list-style:none;
+}
+#redes ul li a{
+    text-decoration:none;
+    color:black;
+
+}
+ul{
+    list-style:none;
+}
+#whatsapp{
+     color:chartreuse
+}
+#facebook{
+     color:blue
+}
+#instagram{
+      color:rgb(236, 61, 222)
+}
+#linkedin{
+    color:navy
+}
+.menu{
+    background-color:rgb(170, 170, 170);
+    
+}
+.menu ul li{
+    display:inline-block;
+    width:100px;
+    text-align:center;
+    margin:10px;
+}
+.menu ul li a{
+    color:rgb(10, 10, 10);
+    text-decoration:none;
+}
+body{
+    margin:0px;
+    padding:0px;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.menuicone{
+    /*faz o icone de menu sumir*/
+    display:none;
+}
+
+/*configuração especial para o celular*/
+@media(max-width: 1050px){
+    .menuicone{
+        display: block;
+        color: white;
+        text-align: left;
+        font-size: 30px;
+        padding: 10px;
+    }
+    .menu{
+        margin-bottom: 20px;
+    }
+    .menu ul{
+        display: none;
+    }
+    section{
+        max-width: 80%; 
+        font-size:30px;
+    }
+    td{
+        font-size:20px;
+    }
+    ul.mostrarmenu{
+        display: inline-block;
+    }
+
+    .menu ul li{
+        width: 100%;
+        text-align: center;
+    }
+ 
+}
+
+
+.painel{
+    display: flex;
+    /*direção dos itens*/
+    flex-direction: row;
+    /*quebra de linha automática*/
+     flex-wrap: wrap;
+     width: 100%;
+     /*alinhamento do conteúdo*/
+    justify-content: space-around;
+    text-align: center;
+}
+img{
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px black;
+}
+a{
+    font-family: serif;
+}
+
+footer{
+    background-color: rgb(0, 0, 0);
+    height: 100px;
+    color: white;
+    text-align: center;
+    padding: 20px
+}

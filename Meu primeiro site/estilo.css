@@ -1,0 +1,103 @@
+/*restar a pagina para ebitar margens indesejadas*/
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:arial,sans-serif;
+
+}
+header{
+   background-color: black;
+   color:rgb(179, 179, 182);
+   padding:1rem 5%;
+}
+nav{
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    
+}
+nav ul{
+    display:flex;
+    list-style:none;
+
+}
+nav ul li{
+    margin-left:20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:aliceblue
+}
+nav ul li a:hover{
+    color:rgb(48, 10, 187);
+}
+#hero{
+    background-image: url(https://cdn.iset.io/assets/55268/produtos/34278/estampa-papel-de-parede-3d-abstrato.jpg);
+    background-size:cover;
+    height:60vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    background-color: rgb(210, 210, 216);
+    text-align:center;
+    padding:20px;
+    
+
+}
+#hero{
+    font-size:2,5rem;
+    color:rgb(31, 4, 128)
+
+}
+.btn{
+    padding:10px,25px;
+    background-color:black;
+    border:none;
+    border-radius:50px;
+    cursor:pointer;
+    text-decoration:none;
+    color:black;
+    box-shadow:blue;
+    font-size:10px;
+
+}
+#sobre{
+    padding:60px 10%;
+    background-color: rgb(234, 234, 236);
+    text-align:center;
+    line-height:1.6;
+   
+
+
+
+}
+
+#sobre h2{
+      font-size:2rem;
+       color:#050607;
+    position:relative;
+    display:inline-block;
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+    background-color: rgb(3, 3, 3);
+    color:aliceblue;
+}
+
+#Redes{
+    
+    color:rgb(255, 255, 255);
+    background-color: rgb(7, 7, 7);
+
+}
+    
+    
+   
+    
+
+

@@ -1,0 +1,43 @@
+
+body{
+    background-color: aquamarine;
+    text-align: center;
+}
+p{
+    color: red;
+}
+img{
+    width:200px;
+    margin: 3px;
+    /* criando borda */
+    border: 4px solid blue;
+    border-radius: 20px;
+    
+}
+.frota{
+    /* largura máxima */
+     max-width: 400px;
+     /* sem borda*/
+     border: none ;
+     /*filtro de contraste*/
+     filter: contrast(2) ;
+     /* colocamdo sombra*/
+     box-shadow: 3px 3px 10px rgb(158, 95, 76);
+}
+.frota:hover{
+    /*aumenta escala da foto */;
+    scale: 1.1;
+    /*rotaciona foto*/
+    rotate: calc(10deg);
+
+
+}
+
+#senac{
+    color: black;
+    font-size:30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: azure;
+    border-radius: 10px;
+
+}
