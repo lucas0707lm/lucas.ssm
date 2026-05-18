@@ -17,14 +17,14 @@
         <div class="col-12 col-sm-10 col-md-6 col-lg-4 card shadow p-4 telalogin animate__animated animate__backInLeft">
        <div class="text-center m-4"> <i class="fa-regular fa-circle-user" style="color: rgb(0, 0, 0); font-size:60px;"></i></div>
             <h3 class="text-center m-4">Login Administrativo</h3>
-            <form>
+            <form action="./backend/logar.php" method="post">
                 <div class="mb-3">
                     <label class="form-label"> Email </label>
-                    <input type="email" class="form-control">
+                    <input type="email" name="email" class="form-control">
                 </div>
                 <div class="mb-3">
                     <label class="form-label"> Senha </label>
-                    <input type="password" class="form-control">
+                    <input type="password" name="senha" class="form-control">
                 </div>
                 <button type="submit" class="btn btn-primary">Entrar</button>
                 <button type="reset" class="btn btn-secondary"> Limpar </button>

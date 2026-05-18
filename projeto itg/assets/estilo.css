@@ -16,3 +16,55 @@
     border-radius:20px;
     box-shadow:2px 2px 10px rgb(0, 0, 0) ! important;
 }
+
+.corbarra{
+    background: linear-gradient(to left, #ad5a2d, rgb(243, 210, 24) );
+}
+body{
+    margin:0;
+    padding:0;
+
+}
+
+.sidebar{
+    width:200px;
+    min-height:100vh;
+}
+
+.sidebar .nav-link{
+    color:#ffffff;
+    transition: 0.3s;
+    margin-bottom:5px;
+    border-radius:8px;
+
+
+}
+.sidebar .nav-link:hover{
+    background-color: #ad5a2d;
+
+}
+@media(max-width: 1300px){
+    .sidebar{
+        position: fixed;
+        top:0;
+        left:-260px;
+        z-index:1000;
+         transition: 0.3s;
+    }
+    .escorecer{
+        display:none;
+        position:fixed;
+        inset:0;
+        background: rgb(0, 0, 0,0.4);
+        z-index:1000;
+       
+    }
+
+    .escorecer.show{
+        display:block;
+
+    }
+    .sidebar.show{
+        left: 0;
+    }
+}
